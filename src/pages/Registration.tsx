@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Input from "../components/Input";
-import joi from "joi";
+import * as joi from "joi";
 import Checkbox from "../components/Checkbox";
 import Button from "../components/Button";
 interface IRegistrationPageProps {
