@@ -1,0 +1,28 @@
+.heading-text {
+  font-size: 20px;
+  color: var(--color-text);
+  letter-spacing: 0.3px;
+}
+
+.body-text {
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.bg--blue {
+  background-color: var(--blue);
+  color: white;
+}
+
+.bg--white {
+  background-color: var(--white);
+}
+
+.box-shadow {
+  &--paper {
+    box-shadow: var(--box-shadow-paper);
+  }
+  &--cont {
+    box-shadow: var(--box-shadow-cont);
+  }
+}
